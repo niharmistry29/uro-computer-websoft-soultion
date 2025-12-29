@@ -1,0 +1,38 @@
+.header {
+  position: sticky;
+  top: 3;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6%;
+  background: linear-gradient(
+    135deg,
+    rgba(108, 99, 255, 0.25),
+    rgba(255, 204, 102, 0.15)
+  );
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.logo span {
+  color: #ffcc66;
+}
+
+.nav a {
+  margin-left: 1.5rem;
+  color: #ffffff;
+  opacity: 0.85;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.nav a:hover {
+  opacity: 1;
+  color: #ffcc66;
+}

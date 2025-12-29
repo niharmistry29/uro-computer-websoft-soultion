@@ -1,0 +1,110 @@
+.page {
+  background: #0f1020;
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  padding: 4rem 8%;
+  min-height: 90vh;
+  align-items: center;
+}
+
+.heroText h1 {
+  font-size: 3rem;
+}
+
+.heroText p {
+  opacity: 0.8;
+  margin: 1rem 0 2rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.primaryBtn {
+  background: #6c63ff;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+}
+
+.outlineBtn {
+  border: 1px solid #6c63ff;
+  color: #6c63ff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+}
+
+/* CANVAS */
+.canvasWrap {
+  height: 420px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 3rem 8%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+/* CARDS */
+.card {
+  background: #16172f;
+  padding: 1.5rem;
+  border-radius: 14px;
+}
+
+.card h3 {
+  color: #6c63ff;
+  margin-bottom: 1rem;
+}
+
+/* CONTACT */
+.contact {
+  display: grid;
+  gap: 0.5rem;
+}
+
+/* HIGHLIGHT */
+.highlight {
+  background: linear-gradient(135deg, #6c63ff20, transparent);
+}
+
+/* LISTS */
+.twoColumn {
+  columns: 2;
+  gap: 2rem;
+}
+.outlineBtn {
+  border: 1px solid #6c63ff;
+  color: #6c63ff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.outlineBtn {
+  display: inline-block;
+  padding: 0.75rem 1.8rem;
+  border-radius: 12px;
+  background: #1f1c54;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.outlineBtn:hover {
+  background: #554ee8;
+  transform: translateY(-2px);
+}

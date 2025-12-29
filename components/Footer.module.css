@@ -1,0 +1,36 @@
+.footer {
+  margin-top: 4rem;
+  padding: 3rem 6% 1.5rem;
+  background: linear-gradient(
+    135deg,
+    rgba(15, 16, 32, 1),
+    rgba(28, 29, 58, 1)
+  );
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.footer h3,
+.footer h4 {
+  color: #ffcc66;
+  margin-bottom: 0.6rem;
+}
+
+.footer p {
+  opacity: 0.8;
+  margin-bottom: 0.3rem;
+}
+
+.bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 1rem;
+}

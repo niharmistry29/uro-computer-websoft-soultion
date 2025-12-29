@@ -1,0 +1,100 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  padding: 4rem 8%;
+  overflow: hidden;
+  color: white;
+}
+
+/* Background image with opacity */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/images/computer.png") center / cover no-repeat;
+  opacity: 0.12; /* 🔹 light opacity */
+  z-index: 0;
+}
+
+/* Keep content above background */
+.hero-text,
+.hero-canvas {
+  position: relative;
+  z-index: 1;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0f1020, transparent);
+  z-index: 0;
+}
+
+.hero::before {
+  animation: zoom 20s infinite alternate;
+}
+
+@keyframes zoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.1); }
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  padding: 4rem 8%;
+  overflow: hidden;
+  color: #fff;
+  background: #0f1020; /* base color */
+}
+
+/* LIGHT BACKGROUND IMAGE */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    url("/images/computer.png") center / cover no-repeat;
+  opacity: 0.08; /* 👈 very light */
+  z-index: 0;
+}
+
+/* Optional soft gradient overlay */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top left,
+    rgba(108, 99, 255, 0.25),
+    transparent 60%
+  );
+  z-index: 0;
+}
+
+/* Keep content above background */
+.heroText,
+.heroCanvas {
+  position: relative;
+  z-index: 1;
+}
+
+.heroText h1 {
+  font-size: 3.5rem;
+}
+
+.heroText p {
+  margin-top: 1rem;
+  opacity: 0.85;
+}
+
+.heroCanvas {
+  height: 420px;
+}

@@ -1,0 +1,81 @@
+.page {
+  background: #0f1020;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 4rem 1.5rem;
+  background: linear-gradient(135deg, #6c63ff30, transparent);
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+}
+
+.hero p {
+  margin-top: 1rem;
+  opacity: 0.85;
+}
+
+.backBtn {
+  display: inline-block;
+  padding: 0.75rem 1.8rem;
+  border-radius: 12px;
+  background: #060333;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.backBtn:hover {
+  background: #7e79c6;
+  transform: translateY(-2px);
+}
+
+/* SECTIONS */
+.section {
+  padding: 3rem 8%;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  color: #ffcc66;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+/* CARDS */
+.card {
+  background: #16172f;
+  padding: 1.5rem;
+  border-radius: 14px;
+}
+
+.card h3 {
+  color: #6c63ff;
+  margin-bottom: 1rem;
+}
+
+.card ul li {
+  margin-bottom: 0.4rem;
+}
+
+/* LIST */
+.list li {
+  margin-bottom: 0.5rem;
+}
+
+/* CONTACT */
+.contact {
+  background: #16172f;
+  border-radius: 14px;
+}

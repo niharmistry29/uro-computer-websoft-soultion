@@ -1,0 +1,53 @@
+
+body {
+margin: 0;
+font-family: 'Inter', sans-serif;
+background: #0f0f1a;
+color: white;
+}
+
+
+.hero {
+display: grid;
+grid-template-columns: 1fr 1fr;
+min-height: 100vh;
+align-items: center;
+padding: 4rem;
+}
+
+
+.hero-text h1 {
+font-size: 3.5rem;
+}
+
+
+.hero-canvas {
+height: 500px;
+}
+
+
+.section {
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+padding: 4rem;
+}
+
+
+.canvas {
+height: 350px;
+}
+
+
+.footer {
+text-align: center;
+padding: 2rem;
+background: #080812;
+}
+
+html,
+body {
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;   /* ✅ scrolling enabled */
+}
