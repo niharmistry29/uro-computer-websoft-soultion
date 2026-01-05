@@ -14,7 +14,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: url("/images/computer.png") center / cover no-repeat;
+  background: url("/images/computer2.png") center / cover no-repeat;
   opacity: 0.12; /* 🔹 light opacity */
   z-index: 0;
 }
@@ -35,7 +35,7 @@
 }
 
 .hero::before {
-  animation: zoom 20s infinite alternate;
+  animation: zoom 10s infinite alternate;
 }
 
 @keyframes zoom {
@@ -52,7 +52,7 @@
   padding: 4rem 8%;
   overflow: hidden;
   color: #fff;
-  background: #0f1020; /* base color */
+  background: #0f10209a; /* base color */
 }
 
 /* LIGHT BACKGROUND IMAGE */
@@ -61,7 +61,7 @@
   position: absolute;
   inset: 0;
   background: 
-    url("/images/computer.png") center / cover no-repeat;
+    url("/images/computer2.png") center / cover no-repeat;
   opacity: 0.08; /* 👈 very light */
   z-index: 0;
 }
@@ -73,7 +73,7 @@
   inset: 0;
   background: radial-gradient(
     circle at top left,
-    rgba(108, 99, 255, 0.25),
+    rgba(252, 252, 253, 0.267),
     transparent 60%
   );
   z-index: 0;
@@ -88,13 +88,39 @@
 
 .heroText h1 {
   font-size: 3.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 300rem;
+  /* Gradient */
+  background: linear-gradient(90deg, #38bdf8, #3b3da0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.heroText h1 {
+  background-size: 200% auto;
+  animation: metalShine 4s linear infinite;
+}
+
+@keyframes metalShine {
+  from {
+    background-position: 0% center;
+  }
+  to {
+    background-position: 200% center;
+  }
 }
 
 .heroText p {
   margin-top: 1rem;
-  opacity: 0.85;
+  opacity: 1;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .heroCanvas {
   height: 420px;
 }
+
+
+

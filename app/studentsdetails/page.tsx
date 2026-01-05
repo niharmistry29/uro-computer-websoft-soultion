@@ -33,14 +33,7 @@ export default function DataAnalysisPreview() {
           <p>Excel • Power BI • SQL • Python</p>
         </div>
 
-        <div className={styles.canvasWrap}>
-          <Canvas>
-            <ambientLight intensity={0.8} />
-            <directionalLight position={[3, 3, 3]} />
-            <PreviewObject />
-            <OrbitControls enableZoom={false} />
-          </Canvas>
-        </div>
+       
       </section>
 
       {/* OVERVIEW */}
@@ -95,6 +88,16 @@ export default function DataAnalysisPreview() {
           </ul>
         </div>
 
+        <div className={styles.card}>
+          <h3>Basics</h3>
+          <ul>
+            <li>Mathematics</li>
+            <li>Data Cleaning</li>
+            <li>Visualization</li>
+            <li>Mini Projects</li>
+          </ul>
+        </div>
+
       </section>
 
       {/* HIGHLIGHT */}
@@ -110,3 +113,4 @@ export default function DataAnalysisPreview() {
     </section>
   );
 }
+

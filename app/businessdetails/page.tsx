@@ -56,21 +56,15 @@ export default function BusinessDetails() {
       <section className={styles.hero}>
         <div className={styles.heroText}>
           {/* Back to Home */}
-    <Link href="/" className={styles.outlineBtn}>
-      ← Back to Home
-    </Link>
+    
           <h1>URO COMPUTER WEBSOFT SOLUTION</h1>
           <p>Professional Training & Software Development Institute</p>
+          <Link href="/" className={styles.outlineBtn}>
+      ← Back to Home
+    </Link>
         </div>
 
-        <div className={styles.canvasWrap}>
-          <Canvas>
-            <ambientLight intensity={0.8} />
-            <directionalLight position={[3, 3, 3]} />
-            <AnimatedKnot />
-            <OrbitControls enableZoom={false} />
-          </Canvas>
-        </div>
+    
       </section>
 
 
@@ -121,38 +115,62 @@ export default function BusinessDetails() {
           </ul>
         </div>
 
+        <div className={styles.card}>
+          <h3>Excel</h3>
+          <ul>
+            <li>Power Query</li>
+            <li>Data Modeling</li>
+            <li>DAX & Pivot Tables</li>
+            <li>Dashboards</li>
+          </ul>
+        </div>
+
+        <div className={styles.card}>
+          <h3>Power BI</h3>
+          <ul>
+            <li>Power Query</li>
+            <li>DAX Formulas</li>
+            <li>Professional Reports</li>
+            <li>Data Connections</li>
+          </ul>
+        </div>
+
+        <div className={styles.card}>
+          <h3>SQL</h3>
+          <ul>
+            <li>SELECT Queries</li>
+            <li>Joins</li>
+            <li>Aggregation</li>
+            <li>Subqueries</li>
+          </ul>
+        </div>
+
+        <div className={styles.card}>
+          <h3>Python</h3>
+          <ul>
+            <li>Pandas & NumPy</li>
+            <li>Data Cleaning</li>
+            <li>Visualization</li>
+            <li>Mini Projects</li>
+          </ul>
+        </div>        
+
       </section>
 
       {/* PROGRAMS */}
       <section className={`${styles.section} ${styles.highlight}`}>
-        <h2>Special Programs</h2>
-        <ul>
-          <li>✅ FREE Internship</li>
-          <li>✅ Software Development Training with Live Projects</li>
-        </ul>
-      </section>
+          <h2 className={styles.title}>Special Programs</h2>
 
-      {/* ACADEMIC */}
-      <section className={styles.section}>
-        <h2>Academic Support</h2>
-        <ul className={styles.twoColumn}>
-          <li>5th to 12th Computer (GSEB / CBSE)</li>
-          <li>Mathematics I, II, III</li>
-          <li>Discrete Mathematics</li>
-          <li>Statistics</li>
-          <li>DAA, TOC, Compiler</li>
-        </ul>
+          <ul className={styles.list}>
+            <li>FREE Internship</li>
+            <li>Software Development Training with Live Projects</li>
+            <li>Career Building</li>
+            <li>Live Project Training</li>
+          <li>Internship Support</li>
+          <li>Dashboard Portfolio</li>
+          </ul>
       </section>
-      {/* CONTACT */}
-      <section className={styles.section}>
-        <h2>Contact Information</h2>
-        <div className={styles.contact}>
-          <p><strong>Contact Person:</strong> Umesh Shah</p>
-          <p>📞 +91 9033 914914</p>
-          <p>📞 +91 9898 108747</p>
-        </div>
-      </section>
-
+   
     </section>
   );
 }

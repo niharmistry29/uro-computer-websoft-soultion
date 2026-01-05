@@ -8,27 +8,26 @@ export default function Footer() {
       <div className={styles.grid}>
 
         <div>
-          <h3>URO Web-Soft Solution</h3>
-          <p>
-            Education • Software Development • Projects • 3D Web Experience
-          </p>
+          <h3>Contact Details</h3>
+          <p>📞 +91 9033 914914
+            <br></br>📞 +91 9898 108747</p>
+        </div>
+        
+        <div>
+          <h3>Email id</h3>
+          <p>admin@urocomputerwebsoftsolution.in</p>
         </div>
 
         <div>
-          <h4>Contact</h4>
-          <p>📞 +91 9033 914914</p>
-          <p>📞 +91 9898 108747</p>
-        </div>
-
-        <div>
-          <h4>Focus Areas</h4>
-          <p>Students (9–12)</p>
-          <p>Kids Coding</p>
-          <p>Web & Software</p>
+          <h3>Address</h3>
+          <p>33 2nd Floor, Uma Complex
+              <br></br>Above Domino's Pizza
+              <br></br>Uma Char Rasta Waghodia Road.
+            <br></br>Vadodara - 390019</p>
         </div>
 
       </div>
-
+<br></br>
       <div className={styles.bottom}>
         © {new Date().getFullYear()} URO Web-Soft Solution. All rights reserved.
       </div>

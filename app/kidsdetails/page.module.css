@@ -32,8 +32,9 @@
 }
 
 .backBtn:hover {
-  background: #7e79c6;
+  background: #458bf3;
   transform: translateY(-2px);
+  color: #0f1020;
 }
 
 /* SECTIONS */
@@ -79,3 +80,5 @@
   background: #16172f;
   border-radius: 14px;
 }
+
+

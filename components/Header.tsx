@@ -21,8 +21,8 @@ export default function Header() {
 
       {/* NAV */}
       <nav className={styles.nav}>
-        <Link href="/">Home</Link>
-        <Link href="/">Contact</Link>
+        <h3>UMESH SHAH</h3>
+        
       </nav>
     </header>
   );
