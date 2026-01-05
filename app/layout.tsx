@@ -3,10 +3,10 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import type { Metadata } from 'next'
 
-
 export const metadata: Metadata = {
-title: 'URO Web-Soft Solution',
+title: 'URO COMPUTER WebSoft Solution',
 description: 'Education, Projects & Software Solutions with 3D Experience',
+viewport: "width=device-width, initial-scale=1",
 }
 
 

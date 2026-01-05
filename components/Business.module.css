@@ -17,14 +17,32 @@
   font-weight: 600;
   letter-spacing: 0.6px;
   transition: background 0.25s ease, transform 0.25s ease;
+  text-decoration: none;
 }
 
 .btn:hover {
-  background: #554ee8;
+   background: #458bf3;
   transform: translateY(-2px);
+  color: #0f1020;
 }
 
 .Business {
   padding: 3px 8%;   /* 👈 top-bottom | left-right */
+  background: linear-gradient(
+    135deg,
+    rgba(91, 91, 96, 0.466),
+    rgba(7, 3, 76, 0.684)
+  );
 }
+.Business h2 {
+  font-size: 35;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Business p {
+  font-size: 20;
+}
+
+
+  
 

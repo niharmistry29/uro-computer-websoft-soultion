@@ -14,11 +14,7 @@ export default function Home() {
   return (
     <main className={styles.home}>
       <Hero />
-      <Business />
-      <Students />
-      <Kids />
-      
-      
+      <Business />      
     </main>
   )
 }

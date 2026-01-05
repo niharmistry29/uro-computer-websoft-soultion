@@ -9,7 +9,7 @@ export default function AcademicsPage() {
 
       {/* HEADER */}
       <section className={styles.hero}>
-        <h1>URO WEBSOFT SOLUTION</h1>
+        <h1>URO COMPUTER  WEBSOFT SOLUTION</h1>
         <p>
           Mathematics & Computer Education for Students (Std. 9 to 12)
         </p>
@@ -25,12 +25,7 @@ export default function AcademicsPage() {
         <p>
           URO WebSoft Solution is a professional education and training institute
           focused on building strong fundamentals in Mathematics and Computer
-          Studies for school students from Standard 11 & 12.
-          <br /><br />
-          We provide concept-based learning, exam-oriented preparation, and
-          practical understanding to help students excel in academics and
-          prepare for future technical education.
-        </p>
+          </p>
       </section>
 
       {/* CLASSES */}
@@ -76,15 +71,6 @@ export default function AcademicsPage() {
           <li>✔ Focus on school & board exams</li>
           <li>✔ Friendly and supportive learning environment</li>
         </ul>
-      </section>
-
-      {/* CONTACT */}
-      <section className={`${styles.section} ${styles.contact}`}>
-        <h2>Contact Information</h2>
-        <p><strong>Institute Name:</strong> URO WebSoft Solution</p>
-        <p><strong>Contact Person:</strong> Umesh Shah</p>
-        <p>📞 +91 9033 914914</p>
-        <p>📞 +91 9898 108747</p>
       </section>
 
     </main>
